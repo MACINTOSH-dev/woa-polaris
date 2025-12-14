@@ -16,7 +16,7 @@
 ### Прошейте модифицированный recovery
 > Если ваше recovery было заменено стоковым, прошейте его снова используя
 ```cmd
-fastboot flash recovery path\to\ofox.img reboot recovery
+fastboot flash recovery путь\к\modded-recovery-polaris.img reboot recovery
 ```
 
 #### Включите режим mass storage
