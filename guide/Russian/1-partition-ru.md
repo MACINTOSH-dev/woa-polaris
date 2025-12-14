@@ -33,10 +33,10 @@ cd путь\к\platform-tools
 > [!Note]
 > Если ваше устройство не определяется в режиме fastboot или recovery, вам потребуется установить драйверы USB, [следуя этому руководству](troubleshooting-ru.md#device-is-not-recognized-in-fastboot-or-recovery)
 
-#### Прошейте OFOX recovery
+#### Прошейте модифицированный recovery
 > Откройте окно CMD внутри папки platform-tools, затем (пока ваш телефон находится в режиме fastboot) выполните 
 ```cmd
-fastboot flash recovery путь\к\ofox.img reboot recovery
+fastboot flash recovery путь\к\modded-recovery-polaris.img reboot recovery
 ```
 
 ### Создание резервной копии важных файлов
