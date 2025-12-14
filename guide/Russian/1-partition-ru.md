@@ -70,6 +70,7 @@ adb shell umount /dev/block/by-name/userdata
 ```
 
 #### Подготовка к разметке
+
 > [!Note]
 > Если в процессе работы вы увидите ошибку с запросом  "Yes/No" или "Ignore/Cancel", выбирайте `Yes` или `Ignore` depending on the situation to ignore the errors and continue.
 
