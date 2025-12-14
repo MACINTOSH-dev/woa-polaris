@@ -63,10 +63,9 @@ adb pull /dev/block/by-name/boot boot.img
 <details>
   <summary><strong>Нажмите здесь для метода 1</strong></summary> 
 
-#### Размонтируйте data
-> Игнорируйте любые возможные ошибки и продолжайте
+#### Открытие shell
 ```cmd
-adb shell umount /dev/block/by-name/userdata
+adb shell
 ```
 
 #### Подготовка к разметке
@@ -74,7 +73,7 @@ adb shell umount /dev/block/by-name/userdata
 > Если в процессе работы вы увидите ошибку с запросом  "Yes/No" или "Ignore/Cancel", выбирайте `Yes` или `Ignore` depending on the situation to ignore the errors and continue.
 
 ```cmd
-adb shell parted /dev/block/sda
+parted /dev/block/sda
 ``` 
 
 #### Отобразить текущую таблицу разделов
@@ -137,6 +136,10 @@ adb shell mkfs.ntfs -f /dev/block/by-name/win -L WINPOLARIS
 
 ```cmd
 adb shell mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPPOLARIS
+```
+### Исправление GPT
+```cmd
+adb shell fixgpt
 ```
 
 </details>
