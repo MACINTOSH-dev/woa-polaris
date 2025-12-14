@@ -31,7 +31,7 @@ cd путь\к\platform-tools
 ```
 
 > [!Note]
-> If your device is not detected in fastboot or recovery mode, you'll have to install USB drivers [using this guide](troubleshooting-ru.md#device-is-not-recognized-in-fastboot-or-recovery)
+> Если ваше устройство не определяется в режиме fastboot или recovery, вам потребуется установить драйверы USB, [следуя этому руководству](troubleshooting-ru.md#device-is-not-recognized-in-fastboot-or-recovery)
 
 #### Прошейте OFOX recovery
 > Откройте окно CMD внутри папки platform-tools, затем (пока ваш телефон находится в режиме fastboot) выполните 
@@ -69,7 +69,7 @@ adb pull /dev/block/by-name/boot boot.img
 adb shell umount /dev/block/by-name/userdata
 ```
 
-#### Подгатовка к разметке
+#### Подготовка к разметке
 ```cmd
 adb shell parted /dev/block/sda
 ``` 
