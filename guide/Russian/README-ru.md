@@ -62,6 +62,7 @@
 [<img alt="Kumar-Jy" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20044626?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Kumar-Jy)
 [<img alt="Dawid2849" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/77780707?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Dawid2849)
 [<img alt="remtrik" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/69907487?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/remtrik)
+[<img alt="MACINTOSH-dev" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/176975342?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/MACINTOSH-dev)
 
 
 
