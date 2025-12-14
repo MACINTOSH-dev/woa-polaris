@@ -5,7 +5,7 @@
 ## Установка Windows
 
 ### Требования
-- [Модифицированный OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
+- [Модифицированный recovery](https://github.com/n00b69/woa-polaris/releases/tag/Recovery)
 
 - [Образ ARM Windows](https://arkt-7.github.io/woawin/)
   
