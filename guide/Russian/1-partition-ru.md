@@ -9,7 +9,7 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
-- [Модифицированный OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
+- [Модифицированный recovery](https://github.com/n00b69/woa-polaris/releases/tag/Recovery)
 
 ### Заметки 
 > [!WARNING]  
