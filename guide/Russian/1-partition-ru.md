@@ -63,7 +63,7 @@ adb pull /dev/block/by-name/boot boot.img
 <details>
   <summary><strong>Нажмите здесь для метода 1</strong></summary> 
 
-#### Размантируйте data
+#### Размонтируйте data
 > Игнорируйте любые возможные ошибки и продолжайте
 ```cmd
 adb shell umount /dev/block/by-name/userdata
