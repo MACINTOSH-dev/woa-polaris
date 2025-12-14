@@ -15,10 +15,10 @@
 
 - [Образ UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
-### Прошейте OFOX recovery
+### Прошейте модифицированный recovery
 > Если ваше recovery было заменено стоковым, прошейте его снова используя
 ```cmd
-fastboot flash recovery path\to\ofox.img reboot recovery
+fastboot flash recovery путь\к\modded-recovery-polaris.img reboot recovery
 ```
 
 #### Включите режим mass storage
@@ -119,7 +119,8 @@ fastboot flash devcfg_ab путь\к\devcfg-polaris.img
 > Замените `путь\к\polaris-uefi.img` актуальным путём к образу UEFI
 
 > [!Important]
-> Remove your USB cable right after leaving the fastboot screen, or Windows may crash in the initial setup, which will then require a reinstall
+> Сразу после выхода из режима fastboot отсоедините USB-кабель, иначе Windows может зависнуть на этапе первоначальной установки, что потребует переустановки системы.
+
 ```cmd
 fastboot boot путь\к\polaris-uefi.img
 ```
