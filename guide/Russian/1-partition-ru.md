@@ -70,7 +70,8 @@ adb shell
 
 #### Подготовка к разметке
 
-> Если в процессе работы вы увидите ошибку с запросом  "Yes/No" или "Ignore/Cancel", выбирайте `Yes` или `Ignore` depending on the situation to ignore the errors and continue.
+> Если в процессе работы вы увидите ошибку с запросом  "Yes/No" или "Ignore/Cancel", выбирайте `Yes` или `Ignore` в зависимости от ситуации проигнорируйте ошибки и продолжите.
+
 
 ```cmd
 parted /dev/block/sda
